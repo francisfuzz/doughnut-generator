@@ -1,0 +1,51 @@
+body {
+  background-color: #e287b5;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  color: #ffd520;
+  font-size: 64px;
+  margin: 0;
+  text-shadow: #000 5px 5px;
+}
+
+svg {
+  cursor: pointer;
+  height: 400px;
+  width: 400px;
+}
+
+a, a:focus, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#donut {
+  user-select: none;
+}
+
+.info {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+  text-shadow:
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.disclaimer {
+  font-size: 14px;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
