@@ -6,12 +6,12 @@ async function getColors(count) {
   return await response.json();
 }
 
-async function createDonut() {
+async function createDoughnut() {
   const data = await getColors(11);
 
-  // Consistent donut colors...
-  const donutInterior = "#f4900d";
-  const donutExterior = "#ffab33";
+  // Consistent doughnut colors...
+  const doughnutInterior = "#f4900d";
+  const doughnutExterior = "#ffab33";
 
   const svg = `
     <svg
@@ -29,7 +29,7 @@ async function createDonut() {
         <g id="g12">
           <g clip-path="url(#clipPath16)" id="g14">
             <g transform="translate(36.3369,13.4512)" id="g20">
-              <path id="path22" style="fill:${donutExterior};fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -1.046,-6.271 -7.722,-10.451 -17.245,-10.451 -9.523,0 -16.198,4.18 -17.243,10.451 -0.247,1.479 0.156,8.12 1.054,9.406 2.559,3.663 3.474,-10.365 16.189,-10.365 13.848,0 13.641,14.028 16.199,10.365 C -0.147,8.12 0.246,1.479 0,0"/>
+              <path id="path22" style="fill:${doughnutExterior};fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -1.046,-6.271 -7.722,-10.451 -17.245,-10.451 -9.523,0 -16.198,4.18 -17.243,10.451 -0.247,1.479 0.156,8.12 1.054,9.406 2.559,3.663 3.474,-10.365 16.189,-10.365 13.848,0 13.641,14.028 16.199,10.365 C -0.147,8.12 0.246,1.479 0,0"/>
             </g>
             <g transform="translate(19.0923,17.6309)" id="g24">
               <path id="path26" style="fill:${
@@ -42,7 +42,7 @@ async function createDonut() {
               };fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -0.653,-1.045 -0.92,-5.494 0.479,-7.577 2.134,-3.179 3.178,-1.567 4.746,-2.047 2.335,-0.714 2.508,-2.559 4.355,-3.483 2.09,-1.045 3.305,-0.741 6.27,0 4.181,1.045 6.837,-1.088 9.405,0 2.106,0.893 3.311,4.137 4.486,4.528 3.728,1.243 4.515,7.124 1.741,9.537 -0.87,-1.829 -5.137,-8.404 -7.88,-8.709 -2.745,-0.305 -10.974,-1 -14.457,0.784 C 5.661,-5.182 2.134,-2.961 1.698,-2.352 1.263,-1.742 0,0 0,0"/>
             </g>
             <g transform="translate(19.0923,23.1177)" id="g32">
-              <path id="path34" style="fill:${donutInterior};fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -3.752,0 -6.793,-1.228 -6.793,-2.743 0,-0.59 0.463,-1.133 1.245,-1.58 -0.126,0.13 -0.2,0.264 -0.2,0.404 0,0.866 2.574,1.567 5.748,1.567 3.173,0 5.748,-0.701 5.748,-1.567 0,-0.14 -0.074,-0.274 -0.201,-0.404 0.783,0.447 1.246,0.99 1.246,1.58 C 6.793,-1.228 3.751,0 0,0"/>
+              <path id="path34" style="fill:${doughnutInterior};fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -3.752,0 -6.793,-1.228 -6.793,-2.743 0,-0.59 0.463,-1.133 1.245,-1.58 -0.126,0.13 -0.2,0.264 -0.2,0.404 0,0.866 2.574,1.567 5.748,1.567 3.173,0 5.748,-0.701 5.748,-1.567 0,-0.14 -0.074,-0.274 -0.201,-0.404 0.783,0.447 1.246,0.99 1.246,1.58 C 6.793,-1.228 3.751,0 0,0"/>
             </g>
             <g transform="translate(5.4199,18.8496)" id="g36">
               <path id="path38" style="fill:${
@@ -100,15 +100,15 @@ async function createDonut() {
     </svg>
     `;
 
-  return (document.getElementById("donut").innerHTML = svg);
+  return (document.getElementById("doughnut").innerHTML = svg);
 }
 
 window.onload = function() {
-  // Loads the initial donut.
-  createDonut();
+  // Loads the initial doughnut.
+  createDoughnut();
 
   // Binds the the onclick listener.
-  document.getElementById("donut").addEventListener("click", function() {
-    return createDonut();
+  document.getElementById("doughnut").addEventListener("click", function() {
+    return createDoughnut();
   });
 };

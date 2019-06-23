@@ -1,6 +1,8 @@
 body {
   background-color: #e287b5;
   font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -21,7 +23,7 @@ a, a:focus, a:visited {
   text-decoration: none;
 }
 
-#donut {
+#doughnut {
   user-select: none;
 }
 
