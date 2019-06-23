@@ -3,7 +3,7 @@ async function getColors(count) {
   // Details: https://noopschallenge.com/
   const endpoint = `https://api.noopschallenge.com/hexbot?count=${count}`;
   const response = await fetch(endpoint);
-  return await response.json();
+  return response.json();
 }
 
 async function createDoughnut() {
