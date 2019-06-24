@@ -19,7 +19,7 @@ svg {
 }
 
 a, a:focus, a:visited {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -31,15 +31,13 @@ a, a:focus, a:visited {
   color: #fff;
   font-size: 1.2rem;
   margin: 0;
-  text-shadow:
-    -2px -2px 0 #000,  
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;
+  text-shadow: #000 1px 1px;
 }
 
 .disclaimer {
+  color: #fff;
   font-size: 14px;
+  text-shadow: #000 1px 1px;
 }
 
 
