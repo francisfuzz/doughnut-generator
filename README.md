@@ -6,7 +6,7 @@ Dynamically generates a new Doughnut with every click.
 
 ## Installation Steps 💽
 
-Simply clone the repository and open the `index.html` file. Alternatively you can view the application here.
+Simply clone the repository and open the `index.html` file. Alternatively you can view the application [here](https://doughnut-generator.jives.dev/).
 
 ## Credits 💬
 
