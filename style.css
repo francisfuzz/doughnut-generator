@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #e287b5;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,9 @@ svg {
   width: 100%;
 }
 
-a, a:focus, a:visited {
+a,
+a:focus,
+a:visited {
   color: #fff;
   text-decoration: none;
 }
@@ -49,7 +51,6 @@ a, a:focus, a:visited {
   font-size: 14px;
   text-shadow: #000 1px 1px;
 }
-
 
 .wrapper {
   align-content: center;
