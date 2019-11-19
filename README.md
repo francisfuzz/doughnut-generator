@@ -1,6 +1,5 @@
 # Doughnut Generator 🍩
-[![View Application](https://img.shields.io/badge/view-application-blue.svg)](https://doughnut-generator.jives.dev
-)
+[![View Application](https://img.shields.io/badge/view-application-blue.svg)](https://doughnut-generator.jives.dev)
 
 Dynamically generates a new Doughnut with every click.
 
